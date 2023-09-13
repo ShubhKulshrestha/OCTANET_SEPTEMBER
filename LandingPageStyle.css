@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("LPBGI.jpg");
+    background-size:100%; 
+  }
+  .navbar1 a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 25px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'didot';
+  }
+  .navbar2 a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 25px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'didot';
+  }
+  header {
+    background-color:white; 
+  }
+  p {
+    color:rgb(229, 170, 22);
+    text-align: center;
+    font-family: "perpetua";
+    padding: 8px;
+    background-color:white;
+    font-size: 55px;
+  
+  }
+  
+  img {
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    border-radius: 40px;
+    
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .container h1 {
+    float: left;
+    font-size: 70px;
+    font-family:perpetua;
+    margin-left: 20%;
+    margin-top: 5%;
+    line-height: 1.6;
+    color: rgb(24, 3, 3);
+    
+  }
+  .container h2{
+    float: left;
+    font-size: 35px;
+    font-family: didot;
+    margin-left: 5%;
+    margin-top: 4%;
+    line-height: 1.6;
+    color: goldenrod;
+    font-style: normal;
+  }
+  .container h3{
+    float: left;
+    font-size: 20px;
+    font-family:'didot';
+    text-align: center;
+    margin-left: 3%;
+    letter-spacing: 2px;
+    color:black;
+    letter-spacing: 5px;
+  
+  }
+  .container button {
+    float: left;
+    background-color:black;
+    color:white;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 4px 3px 4px;
+    text-align:center;
+    cursor: pointer;
+    margin-top: 6%;
+    margin-right: 42%;
+    margin-left: 42%;
+    font-family:sans-serif;
+    width: 140px;
+    max-width: 100%;
+    
+  }
+  .footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+    color:black;
+    font-size:18px;
+    text-align: center;
+  }
+  .footer a{
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    max-width: 100%;
+  }
